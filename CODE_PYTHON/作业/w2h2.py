@@ -1,0 +1,11 @@
+a=input("请输入第一个数")
+b=input("请输入第二个数")
+c=input("请输入第三个数")
+A=int(a)
+B=int(b)
+C=int(c)
+n=(A,B,C)
+x1=max(A,B,C)
+x2=min(A,B,C)
+x3=A+B+C-x1-x2
+print("从小到大的顺序为：{} {} {}".format(x2,x3,x1))
