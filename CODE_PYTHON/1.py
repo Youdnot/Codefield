@@ -1,4 +1,13 @@
-vlis = [1,2,3,4]
-vlis[1:3]=[7,8]#1至3位替换数字
-for i in vlis:
-    print(i)
+import os
+import time
+
+def main():
+    content = '程琦是个猪猪.............'
+    while True:
+        os.system('cls')
+        print(content)
+        time.sleep(0.2)
+        content = content[1:] + content[0]
+
+if __name__ == '__main__':
+    main()
